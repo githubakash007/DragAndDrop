@@ -1,0 +1,60 @@
+<h4>Simple sortable</h4>
+
+
+<app-dragula-dnd></app-dragula-dnd>
+<!-- <div class="row">
+    <div class="col-sm-12">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                Favorite drinks
+            </div>
+            <div class="panel-body">
+                <div  dnd-sortable-container [sortableData]="list1" [dropZones]="['boxers-zone']" >
+                <div class="row" *ngFor="let c of list1;let i = index;" dnd-sortable  [sortableIndex]="i"  >
+                  
+                    <div class="col-md-12" dnd-droppable dnd-draggable (onDragSuccess)="dragSuccess=$event"  (onDropSuccess)="dragSuccess=$event">
+                      <div class="row greenBullet" (onDragEnd)="dragSuccess=$event">
+                          <div class="col col-md-6">
+                              <label class="pde">{{c.order}} {{c.courseid}}</label> <a class="course" href="#" > {{c.coursename}}</a>
+                          </div>
+                          <div class="col col-md-4">
+                            
+                              <label class="customer">{{c.competencies.join(', ')}}</label>
+                          </div>
+                          <div class="col col-md-2 text-right">
+                              <span class="Time">{{c.duration}}</span>
+                              <span  class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+                         
+                          </div>
+                      </div>				  	
+                  </div>
+                </div>
+              </div>
+              <button (click)="saveData(list1)">Save</button>
+                 <hr />
+              <div dnd-sortable-container [sortableData]="list2" [dropZones]="['boxers-zone']"  >
+                  <div class="row" *ngFor="let c of list2;let i = index" dnd-sortable [sortableIndex]="i" >
+                      <div class="col-md-12">
+                        <div class="row greenBullet">
+                            <div class="col col-md-6">
+                                <label class="pde">{{c.courseid}}</label> <a class="course" href="#" >{{c.coursename}}</a>
+                            </div>
+                            <div class="col col-md-4">
+                                <label class="customer" *ngFor="let competency of c.competencies">{{competency}},</label>
+                                <label class="customer">{{c.competencies.join(', ')}}</label>
+                            </div>
+                            <div class="col col-md-2 text-right">
+                                <span class="Time">{{c.duration}}</span>
+                                <span  class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+                              <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                             </div>
+                        </div>				  	
+                    </div>
+                  </div>
+                </div> 
+              
+            </div>
+        </div>
+    </div>
+   
+</div> -->

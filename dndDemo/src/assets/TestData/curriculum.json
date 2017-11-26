@@ -1,0 +1,133 @@
+[
+    {
+        "skillgrp": "foundational",
+        "courses": [
+            {
+                "courseid": "PDE1-211",
+                "coursename": "Angular with azure",
+                "duration": 120,
+                "ismandatory": 0,
+                "isselected":0,
+                "competencies": [
+                    "Angular",
+                    "Azure"
+                ]
+            },
+            {
+                "courseid": "PDE1-212",
+                "coursename": "Angular with Typescript",
+                "duration": 50,
+                "ismandatory":1, "isselected":0,
+                "competencies": [
+                    "Angular",
+                    "Typescript"
+                ]
+            },
+            {
+                "courseid": "PDE1-213",
+                "coursename": "Angular with webpack",
+                "duration": 30,
+                "ismandatory": 0, "isselected":0,
+                "competencies": [
+                    "Angular",
+                    "webpack"
+                ]
+            },
+            {
+                "courseid": "PDE1-214",
+                "coursename": "Routing in Angular",
+                 "duration": 15,
+                "ismandatory":1, "isselected":0,
+                "competencies": [
+                    "Angular"
+                   
+                ]
+            }
+        ]
+    },
+    {
+        "skillgrp": "functional",
+        "courses": [
+            {
+                "coursename": "High Value Problems",
+                "courseid": "PDE1-211",
+                "duration": 200,
+                "ismandatory": 0, "isselected":0,
+                "competencies": [
+                    "Customer Focus"
+                ]
+            },
+            {
+                "coursename": "Market Requirements Specifications",
+                "courseid": "PDE1-218",
+                "duration": 190,
+                "ismandatory": 0, "isselected":0,
+                "competencies": [
+                    "Customer Focus"
+                ]
+            },
+            {
+                "coursename": "Aggressive Technical Buyer Tactics",
+                "courseid": "PDE1-221",
+                "duration": 105,
+                "ismandatory": 1, "isselected":0,
+                "competencies": [
+                    "Customer Focus"
+                ]
+            },
+            {
+                "coursename": "Customer Technical Data Package",
+                "courseid": "PDE2-TCM 309",
+                "duration": 210,
+                "ismandatory": 0, "isselected":0,
+                "competencies": [
+                    "Customer Focus",
+                    "Data Package"
+                ]
+            },
+            {
+                "coursename": "Competitive Information Gathering for the Field",
+                "courseid": "CEE 203",
+                "duration": 208,
+                "ismandatory": 0, "isselected":0,
+                "competencies": [
+                    "Customer Focus"
+                ]
+            }
+        ]
+    },
+    {
+        
+        "skillgrp": "softskills",
+        "courses": [
+            {
+                "courseid": "PDE1-211",
+                "coursename": "Basic Javascript",
+                "duration": 120,
+                "ismandatory": 0, "isselected":0,
+                "competencies": [
+                    "Javascript"
+                ]
+            },
+            {
+                "courseid": "PDE1-212",
+                "coursename": "Javascript with HTML5",
+                "duration": 150,
+                "ismandatory": 1, "isselected":0,
+                "competencies": [
+                    "Javascript","HTML5"
+                ]
+            },
+            {
+                "courseid": "PDE1-213",
+                "coursename": "Trubling shooting in Javascript",
+                "duration": 30,
+                "ismandatory": 0, "isselected":0,
+                "competencies": [
+                    "Javascript",
+                    "Chrome"
+                ]
+            }
+        ]
+    }
+]

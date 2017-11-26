@@ -1,0 +1,79 @@
+<!-- <ul [dragula]='"bag-items"'>
+    <li *ngFor="let c of list1">{{c}}</li>
+  </ul> -->
+<h1>{{msg}}</h1>
+<h1>{{totalHour}}</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          Favorite drinks
+        </div>
+        <div class="panel-body">
+          <div class='dnd-container' [dragula]='"bag-items"' [dragulaModel]='list1'>
+            <div class="row" *ngFor="let c of list1;let i = index;">
+
+              <div class="col-md-12">
+                <div class="row greenBullet">
+                  <div class="col col-md-6">
+                    <label class="pde">{{c.order}} {{c.courseid}}</label> <a class="course" href="#"> {{c.coursename}}</a>
+                  </div>
+                  <div class="col col-md-4">
+
+                    <label class="customer">{{c.competencies.join(', ')}}</label>
+                  </div>
+                  <div class="col col-md-2 text-right">
+                    <span class="Time">{{c.duration}}</span>
+                    <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div *ngIf="list1.length === 0">
+              <div><span></span></div>
+            </div>
+          </div>
+          <button (click)="saveData(list1)">Save</button>
+          <hr />
+
+          <div class='dnd-container' [dragula]='"bag-items"' [dragulaModel]='list2'>
+            <div class="row" *ngFor="let c of list2;let i = index">
+              <div class="col-md-12">
+                <div class="row greenBullet">
+                  <div class="col col-md-6">
+                    <label class="pde">{{c.courseid}}</label> <a class="course" href="#">{{c.coursename}}</a>
+                  </div>
+                  <div class="col col-md-4">
+                   <label class="customer">{{c.competencies.join(', ')}}</label>
+                  </div>
+                  <div class="col col-md-2 text-right">
+                    <span class="Time">{{c.duration}}</span>
+                    <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button (click)="saveData(list2)">Save</button>
+          <div *ngIf="list2.length === 0">
+            <div [dragula]='"bag-items"' [dragulaModel]='list2' class="dropbag">
+              <div class="col-xs-12 center-content">
+                <img src="" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- <div *ngIf="list2.length === 0">
+            <div class="row">
+                <div class="col-md-12" style="min-height: 5px;" ></div>
+            </div>
+            
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

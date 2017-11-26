@@ -1,0 +1,128 @@
+[
+    {
+        "courseid": "PDE5-311",
+        "coursename": "Angular with cloud",
+        "duration": 140,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Angular",
+            "Azure",
+            "AWS"
+        ],
+        "order":0
+    },
+    {
+        "courseid": "PDE5-312",
+        "coursename": "Angular component",
+        "duration": 120,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Angular"
+           
+        ]
+        ,
+        "order":1
+    },
+    {
+        "courseid": "PDE5-313",
+        "coursename": "UI Development",
+        "duration": 120,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Javascript",
+            "json",
+            "HTML",
+            "CSS"
+        ],
+        "order":2
+    },
+    {
+        "courseid": "PDE5-314",
+        "coursename": "Using Bootstrap",
+        "duration": 120,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Bootstrap",
+            "CSS",
+            "Jquery"
+        ]
+        ,
+        "order":3
+    },
+    {
+        "courseid": "PDE1-211",
+        "coursename": "Angular with azure",
+        "duration": 20,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Angular",
+            "Azure"
+        ],
+        "order":4
+    },
+    {
+        "courseid": "PDE1-212",
+        "coursename": "customer focus",
+        "duration": 120,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Customer Knowledge",
+            "Good focus"
+        ],
+        "order":5
+    },
+    {
+        "courseid": "PDE1-213",
+        "coursename": "Angular with azure",
+        "duration": 120,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Angular",
+            "Azure"
+        ],
+        "order":6
+    },
+    {
+        "courseid": "PDE1-214",
+        "coursename": "Angular with azure",
+        "duration": 120,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Angular",
+            "Azure"
+        ],
+        "order":7
+    },
+    {
+        "courseid": "PDE1-211",
+        "coursename": "Angular with azure",
+        "duration": 40,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Angular",
+            "Azure"
+        ],
+        "order":8
+    },
+    {
+        "courseid": "PDE1-211",
+        "coursename": "Angular with azure",
+        "duration": 100,
+        "ismandatory": 0,
+        "isselected": 0,
+        "competencies": [
+            "Angular",
+            "Azure"
+        ],
+        "order":9
+    }
+]
